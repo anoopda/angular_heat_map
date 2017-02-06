@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angular App</title>
+</head>
+
+<body ng-app="mainApp" ng-controller="appnCtrl">
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="/node_modules/angular/angular.js"></script>
+
+
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="name">Name</a></li>
+        <li><a ui-sref="age">Age</a></li>
+    </ul>
+
+    <div ui-view></div>
+	
+
+
+
+
+    <script type="text/javascript" src="routing/Routing.js"></script>
+    <script type="text/javascript" src="js/directives/customdirective.js"></script>
+    <script type="text/javascript" src= "js/controllers/appnCtrl.js"></script>
+</body>
+
+</html>
